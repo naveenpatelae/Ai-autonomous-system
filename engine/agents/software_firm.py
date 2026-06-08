@@ -24,7 +24,7 @@
 #   • No small models on Kaggle — its 30GB RAM stays for 70B context
 #   • Wires into: SovereignSpine.router, MetaAgentFactory, SLoRARouter
 #
-# Migrated from notebook Cells 10 / 15:
+#
 #   • TransientWorkerAgent  — single-task ephemeral sub-agent
 #   • AgentAsAJudge         — critic that scores worker output
 #   • SwarmOrchestrator     — multi-agent decompose → critic loop
@@ -33,7 +33,6 @@
 #   • AgentCard             — typed dataclass replacing bare dict
 #   • FirmSwarmBridge       — wires SwarmOrchestrator into build()
 #
-# WIRING (nyxi_v13.py boot):
 # ─────────────────────────────────────────────────────────────────────
 #   from software_firm import SoftwareFirm, AgentRegistry, AlphaEvolveGym
 #

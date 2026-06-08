@@ -2,7 +2,6 @@
 # =====================================================================
 # 🤖 META-AGENT FACTORY (Fixing the Swarm)
 #
-# Replaces the generic EphemeralAgent with a deterministic micro-swarm.
 # Spawns ephemeral agents for:
 #   1. Routing (Tool Selection)
 #   2. Extraction (JSON Parameter generation)
